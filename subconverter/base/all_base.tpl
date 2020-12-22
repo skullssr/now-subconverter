@@ -156,6 +156,7 @@ static=🌏 港台媒体, direct, img-url=https://raw.githubusercontent.com/Kool
 static=📺 哔哩哔哩, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/bilibili.png
 static=📺 哔哩哔哩&爱奇艺, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/iQIYI&bilibili.png
 static=🌏 出海媒体, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/ForeignMedia.png
+static=📡 Emby, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Emby.png
 static=🇧🇹 BT&PT, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
 static=🇺🇳 国外网站, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States_Map.png
 static=🇨🇳 国内网站, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/China_Map.png
