@@ -183,8 +183,6 @@ static=♻️ IPLC节点, direct, img-url=https://raw.githubusercontent.com/Kool
 [server_remote]
 
 [filter_remote]
-# Emby规则，不使用可注释
-https://raw.githubusercontent.com/echoops/emby/main/Filter/Emby.list, tag=Emby, update-interval=86400, enabled=true
 
 [rewrite_remote]
 # 破解Emby客户端，不使用可注释
