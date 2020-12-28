@@ -56,18 +56,12 @@ host = 127.0.0.1
 [Remote Rule]
 
 [URL Rewrite]
-enable = true
-^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
 
 [Remote Rewrite]
-https://raw.githubusercontent.com/Loon0x00/LoonExampleConfig/master/Rewrite/AutoRewrite_Example.list,auto
+# 破解Emby客户端，不使用可注释
+https://raw.githubusercontent.com/echoops/limitless/main/QuantumultX/Rewrite/emby.qxrewrite, tag=Emby Premiere, update-interval=86400, enabled=true
 
 [MITM]
-hostname = *.example.com,*.sample.com
-enable = true
-skip-server-cert-verify = true
-#ca-p12 =
-#ca-passphrase =
 
 {% endif %}
 {% if request.target == "quan" %}
