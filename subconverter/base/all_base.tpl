@@ -62,7 +62,6 @@ host = 127.0.0.1
 [Script]
 # 破解Emby客户端，不使用可注释
 http-response ^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice requires-body=1,max-size=0, script-path=https://raw.githubusercontent.com/rartv/SurgeScript/main/EmbyPremiere/EmbyPremiere.js,tag=EmbyPremiere
-enable=true
 
 [MITM]
 hostname = mb3admin.com
