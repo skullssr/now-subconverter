@@ -185,15 +185,12 @@ static=♻️ IPLC节点, direct, img-url=https://raw.githubusercontent.com/Kool
 # 破解Emby客户端，不使用可注释
 #https://raw.githubusercontent.com/echoops/limitless/main/QuantumultX/Rewrite/emby.qxrewrite, tag=Emby Premiere, update-interval=86400, enabled=true
 
-[Script]
-# 破解Emby客户端，不使用可注释
-http-request ^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) script-path=https://raw.githubusercontent.com/echoops/cookies/main/Script/emby.js
-
 [server_local]
 
 [filter_local]
 
 [rewrite_local]
+^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-echo-response https://raw.githubusercontent.com/echoops/cookies/main/Script/emby.js
 
 [mitm]
 hostname = mb3admin.com
