@@ -187,7 +187,7 @@ static=♻️ IPLC节点, direct, img-url=https://raw.githubusercontent.com/Kool
 
 [Script]
 # 破解Emby客户端，不使用可注释
-http-request ^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-echo-response https://raw.githubusercontent.com/echoops/cookies/main/Script/emby.js
+http-request ^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) script-path=https://raw.githubusercontent.com/echoops/cookies/main/Script/emby.js
 
 [server_local]
 
