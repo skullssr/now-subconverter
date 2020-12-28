@@ -58,8 +58,9 @@ host = 127.0.0.1
 [URL Rewrite]
 
 [Remote Rewrite]
+#https://raw.githubusercontent.com/Loon0x00/LoonExampleConfig/master/Rewrite/AutoRewrite_Example.list,auto
 # 破解Emby客户端，不使用可注释
-https://raw.githubusercontent.com/echoops/limitless/main/QuantumultX/Rewrite/emby.qxrewrite, tag=Emby Premiere, update-interval=86400, enabled=true
+https://raw.githubusercontent.com/echoops/limitless/main/QuantumultX/Rewrite/emby.qxrewrite,Emby Premiere
 
 [MITM]
 
