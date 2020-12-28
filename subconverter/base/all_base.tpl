@@ -56,26 +56,16 @@ host = 127.0.0.1
 [Remote Rule]
 
 [URL Rewrite]
-#enable = false
-#^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+enable = true
+^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
 
 [Remote Rewrite]
-#https://raw.githubusercontent.com/Loon0x00/LoonExampleConfig/master/Rewrite/AutoRewrite_Example.list,auto
-
-[Script]
-enable = true
-script-path=https://raw.githubusercontent.com/rartv/SurgeScript/main/EmbyPremiere/EmbyPremiere.js,tag=Emby
-
-[Remote Script]
-
-[Plugin]
-#https://subweb.oss-cn-hongkong.aliyuncs.com/Module/embyUnlocked.plugin, tag=Emby Premiere, enabled=true
+https://raw.githubusercontent.com/Loon0x00/LoonExampleConfig/master/Rewrite/AutoRewrite_Example.list,auto
 
 [MITM]
-#hostname = *.example.com,*.sample.com
-hostname = mb3admin.com
-enable = false
-#skip-server-cert-verify = true
+hostname = *.example.com,*.sample.com
+enable = true
+skip-server-cert-verify = true
 #ca-p12 =
 #ca-passphrase =
 
