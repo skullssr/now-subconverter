@@ -56,10 +56,10 @@ host = 127.0.0.1
 [Remote Rule]
 
 [URL Rewrite]
-enable = false
+enable = true
 #^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
 # > Emby解锁播放权限
-^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-echo-response https://raw.githubusercontent.com/echoops/cookies/main/Script/emby.js
+^https?:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-echo-response https://raw.githubusercontent.com/echoops/cookies/main/Script/emby.js
 # ---(By KleinerSource)---
 
 [Remote Rewrite]
@@ -68,7 +68,7 @@ enable = false
 [MITM]
 hostname = mb3admin.com
 #hostname = *.example.com,*.sample.com
-enable = false
+enable = true
 skip-server-cert-verify = true
 ca-p12 =
 ca-passphrase =
