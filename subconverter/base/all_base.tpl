@@ -57,21 +57,17 @@ host = 127.0.0.1
 
 [URL Rewrite]
 enable = true
-#^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
-# > Emby解锁播放权限
-^https?:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-echo-response https://raw.githubusercontent.com/echoops/cookies/main/Script/emby.js
-# ---(By KleinerSource)---
+^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
 
 [Remote Rewrite]
-#https://raw.githubusercontent.com/Loon0x00/LoonExampleConfig/master/Rewrite/AutoRewrite_Example.list,auto
+https://raw.githubusercontent.com/Loon0x00/LoonExampleConfig/master/Rewrite/AutoRewrite_Example.list,auto
 
 [MITM]
-hostname = mb3admin.com
-#hostname = *.example.com,*.sample.com
+hostname = *.example.com,*.sample.com
 enable = true
 skip-server-cert-verify = true
-ca-p12 =
-ca-passphrase =
+#ca-p12 =
+#ca-passphrase =
 
 {% endif %}
 {% if request.target == "quan" %}
