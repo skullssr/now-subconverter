@@ -130,6 +130,7 @@ static=🍎 苹果服务, direct, img-url=https://raw.githubusercontent.com/Kool
 static=📢 谷歌FCM, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Google.png
 static=🎯 全球直连, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
 static=🛑 全球拦截, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
+static=⛔ 全球拦截, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
 static=🐟 漏网之鱼, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
 static=🛑 广告拦截, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Reject.png
 static=⛔ 应用拦截, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Reject.png
