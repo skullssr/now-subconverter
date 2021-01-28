@@ -33,7 +33,7 @@ bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
 dns-server = 119.29.29.29,223.5.5.5
 
 [Script]
-http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://ghproxy.com/https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 
 {% endif %}
 {% if request.target == "loon" %}
@@ -61,7 +61,7 @@ host = 127.0.0.1
 
 [Script]
 # 破解Emby客户端，不使用可注释
-http-response ^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice requires-body=1,max-size=0, script-path=https://raw.githubusercontent.com/rartv/SurgeScript/main/EmbyPremiere/EmbyPremiere.js,tag=EmbyPremiere
+http-response ^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice requires-body=1,max-size=0, script-path=https://ghproxy.com/https://raw.githubusercontent.com/rartv/SurgeScript/main/EmbyPremiere/EmbyPremiere.js,tag=EmbyPremiere
 
 [MITM]
 # 破解Emby证书，不使用可注释
@@ -118,70 +118,70 @@ server=1.0.0.1
 server=8.8.8.8
 
 [policy]
-static=♻️ 自动选择, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
-static=🔰 节点选择, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
-static=🌍 国外媒体, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
-static=🌏 国内媒体, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/DomesticMedia.png
-static=Ⓜ️ 微软服务, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
-static=Ⓜ️ 微软云盘, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
-static=📲 电报信息, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
-static=📲 电报消息, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
-static=🍎 苹果服务, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
-static=📢 谷歌FCM, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Google.png
-static=🎯 全球直连, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
-static=🛑 全球拦截, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
-static=⛔ 全球拦截, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
-static=🐟 漏网之鱼, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
-static=🛑 广告拦截, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Reject.png
-static=⛔ 应用拦截, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Reject.png
-static=🍃 应用净化, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Magic.png
-static=🆎 AdBlock, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
-static=🆎 隐私防护, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hijacking.png
-static=🎮 游戏平台, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
-static=🎮 游戏模式, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
-static=🧩 微软服务, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
-static=📲 聊天软件, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
-static=📺 巴哈姆特, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Bahamut.png
-static=📹 油管视频, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/YouTube.png
-static=▶ YouTube, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/YouTube.png
-static=📹 YouTube, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/YouTube.png
-static=🎥 NETFLIX, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
-static=🎥 奈飞视频, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
-static=🎥 奈飞节点, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix_Letter.png
-static=🎵 TikTok, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/TikTok.png
-static=🎬 Prime, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Prime_Video.png
-static=👪 DisneyPlus, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Disney+.png
-static=🎬 HBO, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HBO.png
-static=🎬 Spotify, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Spotify.png
-static=🎶 网易音乐, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png
-static=⛩ 日韩媒体, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/ForeignMedia.png
-static=🌏 港台媒体, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/ForeignMedia.png
-static=📺 哔哩哔哩, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/bilibili.png
-static=📺 哔哩哔哩&爱奇艺, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/iQIYI&bilibili.png
-static=🌏 出海媒体, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/ForeignMedia.png
-static=📡 Emby, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Emby.png
-static=🇧🇹 BT&PT, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
-static=🇺🇳 国外网站, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States_Map.png
-static=🇨🇳 国内网站, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/China_Map.png
-static=🚀 节点选择, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
-static=🚀 手动切换, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Rocket.png
-static=♻️ 手动切换, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Rocket.png
-static=🎯 总模式, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Airport.png
-static=♻️ 延迟最低, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
-static=Ⓜ️ 延迟最低, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
-static=🔯 故障转移, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Round_Robin.png
-static=Ⓜ️ 故障切换, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Round_Robin.png
-static=🔮 负载均衡, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Bypass.png
-static=Ⓜ️ 负载均衡, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Bypass.png
-static=🇭🇰 香港节点, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
-static=🇯🇵 日本节点, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
-static=🇺🇲 美国节点, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
-static=🇨🇳 台湾节点, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Taiwan.png
-static=🇸🇬 狮城节点, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
-static=🇰🇷 韩国节点, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Korea.png
-static=🌍 其他地区, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_Nations.png
-static=♻️ IEPL节点, direct, img-url=https://raw.githubusercontent.com/skullssr/Qure/master/IconSet/IEPL.png
-static=♻️ IPLC节点, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
+static=♻️ 自动选择, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
+static=🔰 节点选择, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
+static=🌍 国外媒体, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
+static=🌏 国内媒体, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/DomesticMedia.png
+static=Ⓜ️ 微软服务, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
+static=Ⓜ️ 微软云盘, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
+static=📲 电报信息, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
+static=📲 电报消息, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
+static=🍎 苹果服务, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
+static=📢 谷歌FCM, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Google.png
+static=🎯 全球直连, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
+static=🛑 全球拦截, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
+static=⛔ 全球拦截, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
+static=🐟 漏网之鱼, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+static=🛑 广告拦截, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Reject.png
+static=⛔ 应用拦截, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Reject.png
+static=🍃 应用净化, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Magic.png
+static=🆎 AdBlock, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
+static=🆎 隐私防护, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hijacking.png
+static=🎮 游戏平台, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=🎮 游戏模式, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Game.png
+static=🧩 微软服务, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
+static=📲 聊天软件, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
+static=📺 巴哈姆特, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Bahamut.png
+static=📹 油管视频, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/YouTube.png
+static=▶ YouTube, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/YouTube.png
+static=📹 YouTube, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/YouTube.png
+static=🎥 NETFLIX, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
+static=🎥 奈飞视频, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix.png
+static=🎥 奈飞节点, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix_Letter.png
+static=🎵 TikTok, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/TikTok.png
+static=🎬 Prime, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Prime_Video.png
+static=👪 DisneyPlus, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Disney+.png
+static=🎬 HBO, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HBO.png
+static=🎬 Spotify, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Spotify.png
+static=🎶 网易音乐, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png
+static=⛩ 日韩媒体, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/ForeignMedia.png
+static=🌏 港台媒体, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/ForeignMedia.png
+static=📺 哔哩哔哩, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/bilibili.png
+static=📺 哔哩哔哩&爱奇艺, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/iQIYI&bilibili.png
+static=🌏 出海媒体, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/ForeignMedia.png
+static=📡 Emby, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Emby.png
+static=🇧🇹 BT&PT, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
+static=🇺🇳 国外网站, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States_Map.png
+static=🇨🇳 国内网站, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/China_Map.png
+static=🚀 节点选择, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
+static=🚀 手动切换, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Rocket.png
+static=♻️ 手动切换, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Rocket.png
+static=🎯 总模式, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Airport.png
+static=♻️ 延迟最低, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
+static=Ⓜ️ 延迟最低, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
+static=🔯 故障转移, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Round_Robin.png
+static=Ⓜ️ 故障切换, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Round_Robin.png
+static=🔮 负载均衡, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Bypass.png
+static=Ⓜ️ 负载均衡, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Bypass.png
+static=🇭🇰 香港节点, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+static=🇯🇵 日本节点, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
+static=🇺🇲 美国节点, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
+static=🇨🇳 台湾节点, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Taiwan.png
+static=🇸🇬 狮城节点, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+static=🇰🇷 韩国节点, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Korea.png
+static=🌍 其他地区, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_Nations.png
+static=♻️ IEPL节点, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/skullssr/Qure/master/IconSet/IEPL.png
+static=♻️ IPLC节点, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IPLC.png
 
 [server_remote]
 
@@ -189,7 +189,7 @@ static=♻️ IPLC节点, direct, img-url=https://raw.githubusercontent.com/Kool
 
 [rewrite_remote]
 # 破解Emby客户端，不使用可注释
-https://raw.githubusercontent.com/echoops/limitless/main/QuantumultX/Rewrite/emby.qxrewrite, tag=Emby Premiere, update-interval=86400, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/echoops/limitless/main/QuantumultX/Rewrite/emby.qxrewrite, tag=Emby Premiere, update-interval=86400, enabled=true
 
 [server_local]
 
